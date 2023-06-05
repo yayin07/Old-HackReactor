@@ -1,6 +1,6 @@
 import "./App.css";
+import BootCamp from "./components/BootCamp";
 import Company from "./components/Company";
-
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Company />
+      <BootCamp />
     </div>
   );
 }
